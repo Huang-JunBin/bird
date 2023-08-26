@@ -1,0 +1,88 @@
+/* 企业介绍界面
+ */
+/* banner_01模块 */
+.banner01 img {
+  width: 100%;
+}
+
+/* 飞行鸟巢介绍模块 */
+.about-container {
+  width: 70%;
+  margin: 40px auto;
+}
+
+.about-container .about-title {
+  padding-left: 5px;
+  text-align: left;
+  border-left: 10px solid #0098e1;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+
+.about-desc {
+  padding: 10px 0;
+  flex: 2;
+  align-self: center;
+}
+
+.about-desc p {
+  line-height: 1.5em;
+  text-indent: 2em;
+  font-size: 14px;
+}
+
+.about-city-img {
+  flex: 1;
+  padding: 0 80px;
+
+}
+
+.about-city-img img {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.banner02-container {
+  padding: 40px;
+  background-image: url('../image/about/banner02.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner02-container p,
+.banner02-title {
+  width: 40%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.banner02-title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.banner02-container .title-line {
+  width: 3rem;
+  height: 5px;
+  margin-top: 10px;
+  border: 0;
+  background-color: #fff;
+}
+
+.banner02-container p {
+  text-indent: 2em;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.footer-text {
+  margin: 40px auto 60px;
+  width: 70%;
+  text-align: justify;
+}

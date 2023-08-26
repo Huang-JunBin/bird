@@ -1,0 +1,246 @@
+/* 首页 */
+
+/* banner_01模块 */
+.banner01 {
+  position: relative;
+}
+
+.banner01-bg {
+  position: absolute;
+  width: 100%;
+  filter: brightness(90%);
+}
+
+.banner01-text {
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  width: calc(3rem * 13 + 3.5rem * 4 + 10px);
+  /* margin-left: calc(-3rem * 13 / 2 + -3.5rem * 4 / 2 + -5px); */
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.banner01-text .line {
+  height: 4px;
+  margin: 0.5rem 0;
+  border: none;
+  background-color: #7cd2fd;
+}
+
+.banner01-text .text-en {
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+.banner01-text p {
+  width: calc(3rem * 13 + 3.5rem * 4 + 10px);
+  margin-bottom: 1rem;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+/* 飞行鸟巢服务模块 */
+.service-container,
+.case-container,
+.about-container {
+  margin-bottom: 40px;
+  color: #666;
+  text-align: center;
+}
+
+.service-header,
+.case-header,
+.about-header {
+  margin: 30px;
+}
+
+.service-header .header-text-cn,
+.case-header .header-text-cn,
+.about-header .header-text-cn {
+  display: inline-block;
+  border-bottom: 3px solid #0098e1;
+}
+
+.service-header .header-text-en,
+.case-header .header-text-en,
+.about-header .header-text-en {
+  color: #26a2e3;
+}
+
+.service-body {
+  display: flex;
+  justify-content: center;
+}
+
+.service-card {
+  width: 18%;
+  padding: 20px 0;
+  margin: 10px 10px;
+  border: 1px solid #666;
+  border-radius: 20px;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.service-card .icon {
+  width: 5em;
+  height: 5em;
+}
+
+.service-card .card-title {
+  margin: 10px 0;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.service-card .service-desc {
+  display: inline-block;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.service-card .service-desc li::before {
+  content: "-";
+  line-height: 1.5em;
+  display: inline;
+}
+
+.more-btn {
+  width: 3em;
+  padding: 0.4em 2em;
+  margin: 20px auto 0;
+  font-size: 14px;
+  border: 1px solid #0098e1;
+  cursor: pointer;
+}
+
+.more-btn-fill {
+  background-color: #0098e1;
+  color: #fff;
+}
+
+/* 我们的策略模块 */
+.strategy-container {
+  display: flex;
+  align-items: center;
+  background-image: url('../image/index/banner02.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.strategy-title,
+.strategy-list {
+  flex: 1;
+  color: #fff;
+}
+
+.strategy-title {
+  text-align: right;
+  font-size: 2.5em;
+  transform: translateX(-2em);
+}
+
+.strategy-list {
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  filter: brightness(95%);
+}
+
+.strategy-item {
+  margin: 1.5em 0;
+  display: flex;
+  align-items: center;
+  transform: translateX(-1em);
+}
+
+.strategy-item .img-circle {
+  width: 2em;
+  height: 2em;
+  padding: 8px;
+  margin-right: 2em;
+  border-radius: 50%;
+  background-color: #0098e1;
+  box-sizing: border-box;
+}
+
+.strategy-item img {
+  width: 100%;
+}
+
+/* 飞行鸟巢案例模块 */
+.case-body {
+  display: flex;
+  justify-content: center;
+}
+
+.case-card {
+  width: 18%;
+  margin: 20px;
+}
+
+.case-card-body {
+  padding: 10px 10px 2px;
+  border: 1px solid #a29382;
+}
+
+.case-card-body img {
+  width: 100%;
+  cursor: pointer;
+  transition: 1.2s;
+}
+
+.case-card-body img:hover {
+  transform: rotateY(360deg);
+  transition: 1.2s;
+}
+
+.case-card-footer {
+  margin-top: 10px;
+}
+
+/* 飞行鸟巢介绍模块 */
+.about-body {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about-container .about-title {
+  padding-left: 5px;
+  text-align: left;
+  border-left: 10px solid #0098e1;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+
+.about-desc {
+  flex: 2;
+  align-self: center;
+}
+
+.about-desc p {
+  line-height: 1.5em;
+}
+
+.about-desc .more-btn {
+  margin-right: 0;
+}
+
+.about-city-img {
+  flex: 1;
+  padding: 0 80px;
+
+}
+
+.about-city-img img {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}

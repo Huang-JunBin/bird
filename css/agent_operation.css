@@ -1,0 +1,116 @@
+/* 代理运营页面 */
+
+/* banner模块 */
+.banner {
+  width: 100%;
+}
+
+.banner-bg {
+  width: 100%;
+}
+
+.container {
+  width: 64%;
+  margin: 60px auto;
+  color: #666;
+}
+
+/* 模块标题 */
+.title {
+  padding-left: 10px;
+  border-left: 10px solid #0098e1;
+}
+
+.title>span {
+  font-size: 1.5rem;
+}
+
+/* 项目服务模块 */
+.service-container {
+  margin-top: 40px;
+}
+
+.service-step-box {
+  margin: 30px auto;
+}
+
+.service-step-box p {
+  line-height: 1.5em;
+  font-size: 0.8rem;
+}
+
+.service-step-title {
+  margin-bottom: 0.5em;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* 飞行鸟巢实力模块 */
+.strength-text {
+  margin: 40px 0;
+}
+
+.strength-text P {
+  line-height: 1.5em;
+}
+
+.strength-card-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.strength-card-list .card {
+  width: 33%;
+  text-align: center;
+}
+
+.strength-card-list .card img {
+  width: 100%;
+}
+
+/* 合作流程模块 */
+.footer-bg {
+  padding: 40px 0;
+  background-image: url('../image/agent_operation/footer-bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-bg .container {
+  color: #fff;
+}
+
+.process-steps-title {
+  padding-left: 10px;
+  border-left: 10px solid #a29382;
+}
+
+.process-steps-title>span {
+  font-size: 1.4em;
+  letter-spacing: 1em;
+}
+
+.process-steps-title>p {
+  font-size: 0.9em;
+}
+
+.process-steps {
+  display: flex;
+}
+
+.process-steps>.steps-item {
+  box-sizing: border-box;
+  width: 25%;
+  padding: 10px;
+}
+
+.steps-title {
+  margin: 1em 0;
+}
+
+.steps-desc {
+  text-align: justify;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}

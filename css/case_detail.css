@@ -1,0 +1,65 @@
+/* 详情页 */
+
+/* banner */
+.banner img {
+  width: 100%;
+}
+
+/* 文章内容 */
+.container {
+  width: 60%;
+  margin: 60px auto 40px;
+  color: #666;
+}
+
+.article-title,
+.article-title+time {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.article-title {
+  color: #000;
+  font-size: 18px;
+}
+
+.article-title+time {
+  display: block;
+  margin: 1em;
+  font-size: 12px;
+}
+
+article .line {
+  margin: 20px 0;
+  border: 1px dashed #666;
+}
+
+section p {
+  text-align: justify;
+  line-height: 2em;
+  font-size: 14px;
+  text-indent: 2em;
+}
+
+/* 其他文章 */
+.other-article {
+  width: 60%;
+  margin: 0 auto 60px;
+  color: #666;
+}
+
+.pre-article,
+.next-article {
+  display: flex;
+  margin: 1em 0;
+  cursor: pointer;
+}
+
+.pre-article:hover,
+.next-article:hover {
+  color: #0098e1;
+}
+
+.other-article label{
+  color: #000;
+}

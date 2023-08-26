@@ -1,0 +1,109 @@
+/* 公共样式 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 1000px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+button {
+  outline: none;
+}
+
+/* 文本显示 1 行 */
+.text-row-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+/* 文本显示 2 行 */
+.text-row-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/* 文本显示 3 行 */
+.text-row-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* 网页头部 */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.logo {
+  height: 80%;
+}
+
+.nav {
+  display: flex;
+  margin: 0 40px;
+}
+
+.nav-item {
+  padding: 0.5em 1em;
+}
+
+.active.nav-item::after {
+  display: block;
+  content: "";
+  width: 140%;
+  height: 3px;
+  margin-top: 3px;
+  margin-left: -20%;
+  border-radius: 100px;
+  background-color: #a39382;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  color: #fff;
+  background-color: #0098e1;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* 页面底部 */
+.footer {
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
+
+.footer p {
+  font-size: 14px;
+  margin-bottom: 0.5em;
+}

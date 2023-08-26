@@ -1,0 +1,103 @@
+/* 案例展示页面 */
+
+/* banner */
+.banner img {
+  width: 100%;
+}
+
+.container {
+  width: 64%;
+  margin: 60px auto;
+  color: #666;
+}
+
+/* 模块标题 */
+.title {
+  padding-left: 10px;
+  border-left: 10px solid #0098e1;
+}
+
+.title>span {
+  font-size: 1.5rem;
+}
+
+/* 案例列表 */
+.case-list {
+  margin: 40px 0;
+}
+
+.case-item {
+  display: flex;
+  padding: 15px 5px;
+  border-bottom: 2px solid #9d8b79;
+  cursor: pointer;
+}
+
+.case-item:first-child {
+  border-top: 2px solid #9d8b79;
+}
+
+.case-img {
+  width: 30%;
+  overflow: hidden;
+}
+
+.case-img img {
+  width: 100%;
+  transition: 0.4s;
+}
+
+.case-img img:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+
+.case-text {
+  width: 70%;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.case-text .case-title {
+  color: #0098e1;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.case-text p {
+  margin: auto 0;
+  font-size: 14px;
+}
+
+.case-text time {
+  display: flex;
+  align-items: center;
+}
+
+/* 分页按钮 */
+.page-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.page-btn li {
+  width: 2rem;
+  height: 2rem;
+  margin: 10px;
+  border: 1px solid #9d8b79;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.page-btn li:first-child,
+.page-btn li:last-child {
+  width: 5rem;
+  cursor: pointer;
+}
+
+.page-num.active {
+  background-color: #0098e1;
+  border: 1px solid #0098e1;
+  color: #fff;
+}
