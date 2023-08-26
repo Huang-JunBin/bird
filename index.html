@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>首页-飞行鸟巢</title>
+  <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <!-- 网页头部 start -->
+  <header class="header">
+    <img class="logo" src="./image/logo.png" alt="logo">
+    <ul class="nav">
+      <li class="nav-item active">
+        <a href="javascript:void(0);">首页</a>
+      </li>
+      <li class="nav-item">
+        <a href="./agent_operation.html">代理运营</a>
+      </li>
+      <li class="nav-item">
+        <a href="./case_presentation.html">案例展示</a>
+      </li>
+      <li class="nav-item">
+        <a href="./about.html">企业介绍</a>
+      </li>
+      <li class="nav-item">
+        <a href="./contact.html">联系我们</a>
+      </li>
+    </ul>
+    <button class="contact">
+      <img src="./image/header/phone.png">
+      <span>440-920-3769</span>
+    </button>
+  </header>
+  <!-- 网页头部 end -->
+
+  <!-- banner_01 start -->
+  <div id="banner01-container" class="banner01">
+    <img id="banner01-bg" class="banner01-bg" src="./image/index/banner01.png">
+    <!-- 图片文案 start -->
+    <div class="banner01-text">
+      <div>
+        <i style="color: #7cd2fd;font-size: 3.5rem;">飞行鸟巢</i>
+        <span style="font-size: 3rem;">跨境电商一站式解决方案专家</span>
+      </div>
+      <hr class="line" />
+      <p class="text-en">Cross border electricity supplier one-stop solution expert</p>
+      <p style="padding-right: 3em;">专业运营团队 为您的品牌出海保驾护航</p>
+      <p>助力传统企业再次腾飞</p>
+    </div>
+    <!-- 图片文案 end -->
+  </div>
+  <!-- banner_01 end -->
+
+  <!-- 飞行鸟巢服务 start -->
+  <div class="service-container">
+    <div class="service-header">
+      <h2 class="header-text-cn">飞行鸟巢服务</h2>
+      <h3 class="header-text-en">Soarnest Service</h3>
+    </div>
+    <!-- 飞行鸟巢服务卡片列表 start -->
+    <div id="service-body" class="service-body">
+      <!-- template -->
+    </div>
+    <!-- 飞行鸟巢服务卡片列表 end -->
+  </div>
+  <!-- 飞行鸟巢服务 end -->
+
+  <!-- 我们的策略 start -->
+  <div class="strategy-container">
+    <h2 class="strategy-title">我们的策略</h2>
+    <div class="strategy-list">
+      <!-- template -->
+    </div>
+  </div>
+  <!-- 我们的策略 end -->
+
+  <!-- 飞行鸟巢案例 start -->
+  <div class="case-container">
+    <div class="case-header">
+      <h2 class="header-text-cn">飞行鸟巢案例</h2>
+      <h3 class="header-text-en">Soarnest Case</h3>
+    </div>
+    <div class="case-body">
+      <!-- template -->
+    </div>
+  </div>
+  <!-- 飞行鸟巢案例 end -->
+
+  <!-- 飞行鸟巢介绍 start -->
+  <div class="about-container">
+    <div class="about-header">
+      <h2 class="header-text-cn">飞行鸟巢介绍</h2>
+      <h3 class="header-text-en">About Soarnest</h3>
+    </div>
+    <div class="about-body">
+      <div class="about-title">
+        <span style="font-size: 1.4em;">公司介绍</span>
+        <p>Company introduction</p>
+      </div>
+      <div class="about-section">
+        <div class="about-desc">
+          <p>
+            上海飞行鸟巢商业管理有限公司，飞行鸟巢创意来源于孕育新生命的“巢”和摇篮,寄托着跨境电商人对“出海”腾飞的希望。创始人于2014年成立国内工作室，开始运营自己国内的第一家电子商务公司，主要经营文具。在初创期间，历经近一个月的产品试销，最终确定8款潜力爆款产品，经历6个月的精耕细作，单个爆款平均每天成交500单左右。经过不断的探索、分析，成功帮助一众好友运营多个平台，取得可人佳绩，积累了成熟的经验。
+          </p>
+          <div class="more-btn"><a href="./about.html">MORE</a></div>
+        </div>
+        <div class="about-city-img">
+          <img style="width: 100%;" src="./image/index/about.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 飞行鸟巢介绍 end -->
+
+  <!-- 网页底部 start -->
+  <footer class="footer">
+    <p>地址：上海市普陀区交暨路207弄5号A座1层</p>
+    <p>服务热线：400-920-3769</p>
+    <p>沪ICP备18036256号 Copyright &copy; 2018 上海飞行鸟巢商业管理有限公司 版权所有</p>
+    <p>
+      <a class="upyun" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
+        本网站由<img src="./image/upyun.png"/>提供CDN加速/云存储服务
+      </a>
+    </p>
+  </footer>
+  <!-- 网页底部 end -->
+
+</body>
+
+</html>
+<script src="./js/index.js"></script>
+<script>
+  window.onload = function () {
+    setBannerHeight()
+    window.onresize = setBannerHeight
+  }
+
+  /**
+   * 动态设置 banner_01 容器的高度
+  */
+  function setBannerHeight() {
+    let banner01BgDOM = document.getElementById("banner01-bg")
+    let banner01ContainerDOM = document.getElementById("banner01-container")
+    let banner01BgHeight = banner01BgDOM.clientHeight
+    banner01ContainerDOM.style.height = banner01BgHeight + 'px'
+  }
+</script>
+
+<style>
+  .upyun {
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .upyun img {
+    height: 30px;
+  }
+</style>
